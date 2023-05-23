@@ -1,27 +1,19 @@
-# LoginSignUpForm
+## Login & SingUp Tabs
+- This project has 3 custom components
+    -- header component
+    -- login component
+    -- signup component
+- The header component contains the Login and SignUp tabs
+- The login component contains the login form
+- The signup component contains the signup form
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+## Angular Routes
+- In this project, the Login & SignUp Tabs are created using Angular Routes.
+    -- The routes object is setup in the app.module.ts file
+    -- I have used router-outlet tag in the app.component.html file
+    -- I have used the routerLink tag in the header.component.html file to display each route in its respective tab
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Angular Template-Driven Form
+- The login and signup forms are template-driven forms which are based on HTML template
+- Basic Form validations are applied to the both forms (Login and Signup)
+- On clicking of the both buttons in each tab, in the console, I am logging the NgForm object
