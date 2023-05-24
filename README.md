@@ -1,4 +1,5 @@
-## Login & SingUp Tabs
+# Angular Template Driven Forms
+## Login & SingUp Forms
 - This project has 3 custom components
     - header component
     - login component
